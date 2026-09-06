@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div>
-      <h1>This is inside react </h1>
+      <h1  class="text-3xl font-bold underline">This is inside react </h1>
     </div>
   )
 }
