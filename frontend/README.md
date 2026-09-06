@@ -1,16 +1,116 @@
-# React + Vite
+# React E-Commerce Website 🛍️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive e-commerce website built with **React.js** and **Tailwind CSS**. The project focuses on building a clean shopping experience using reusable React components, client-side routing, and a responsive user interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Responsive navigation bar
+* Client-side routing with React Router
+* Home, Collection, About, Contact and Cart pages
+* Responsive mobile navigation menu
+* Product search and profile navigation UI
+* Shopping cart interface
+* Reusable React components
+* Responsive design with Tailwind CSS
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React.js**
+* **React Router DOM**
+* **Tailwind CSS**
+* **Vite**
+* **JavaScript (ES6+)**
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── assets/
+├── components/
+├── context/
+├── pages/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## 🔀 Routing
+
+The application uses **React Router DOM** for client-side navigation.
+
+Current routes include:
+
+```text
+/              → Home
+/collection    → Collection
+/about         → About
+/contact       → Contact
+/cart          → Cart
+```
+
+## 🎨 Styling
+
+The project uses **Tailwind CSS** for responsive and utility-first styling.
+
+Tailwind is imported through:
+
+```css
+@import "tailwindcss";
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone <your-repository-url>
+```
+
+Navigate to the project:
+
+```bash
+cd react-ecommerce-platform
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 📌 Project Status
+
+The project is currently under development.
+
+### Completed
+
+* Project setup with React + Vite
+* Tailwind CSS integration
+* React Router setup
+* Responsive Navbar
+* Mobile navigation menu
+
+### Upcoming
+
+* Product listing
+* Product details
+* Search functionality
+* Cart state management
+* Wishlist
+* Authentication
+* Checkout
+* Order management
+
+## 👨‍💻 Author
+
+**Jayeeta Barman**
+
+---
+
+⭐ This project is being built as a practical React e-commerce application to strengthen frontend development and component-based architecture skills.
